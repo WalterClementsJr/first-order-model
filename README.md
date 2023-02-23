@@ -18,9 +18,10 @@ The videos on the left show the driving videos. The first row on the right for e
 
 ### Installation
 
-We support ```python3```. To install the dependencies run:
+We support ```python3.8```. To install the dependencies run:
 ```
 pip install -r requirements.txt
+pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ### YAML configs
